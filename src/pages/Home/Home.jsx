@@ -1,7 +1,7 @@
 import React from "react";
 import home1 from "../../assets/home1.jpg";
-import "./Home.css";
-import Carousell from "../../components/Carousel";
+import Carousel from "../../components/Carousel";
+import CarouselCustom from "components/Carousel";
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         Pour déguster, commander ou pour toute demande d’information,{" "}
         <strong>contactez nous </strong>
       </p>
-      <Carousell />
+      <CarouselCustom />
     </div>
   );
 };

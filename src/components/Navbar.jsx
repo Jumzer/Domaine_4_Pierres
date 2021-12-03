@@ -37,10 +37,7 @@ export default function BasicMenu() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}
       >
-        <Typography className={classes.container}>
-          {" "}
-          DOMAINE 4 PIERRES{" "}
-        </Typography>
+        <Typography className={classes.text}> DOMAINE 4 PIERRES </Typography>
       </Button>
       <Menu
         id="basic-menu"
