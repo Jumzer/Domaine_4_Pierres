@@ -6,7 +6,6 @@ import Wines from "pages/Wines";
 import Partners from "pages/Partners";
 import Galery from "pages/Galery";
 import Contact from "pages/Contact";
-import Navbar from "components/Navbar";
 import { ThemeProvider } from "@mui/styles";
 import theme from "theme";
 
@@ -15,7 +14,6 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <div>
         <Router>
-          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/vins" element={<Wines />} />
