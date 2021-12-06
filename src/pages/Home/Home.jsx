@@ -24,7 +24,15 @@ const Home = () => {
         </Typography>
       </Box>
       {events.map((event) => {
-        return <EventCard title={event.title} />;
+        return (
+          <EventCard
+            title={event.title}
+            image={event.image}
+            description={event.description}
+            location={event.location}
+            date={event.date}
+          />
+        );
       })}
     </PageContainer>
   );
