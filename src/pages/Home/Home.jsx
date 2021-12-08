@@ -14,11 +14,11 @@ const Home = () => {
         alt="green iguana"
         image={home1}
       />
-      <Box sx={{ width: "100%", maxWidth: 500 }}>
-        <Typography variant="h5" gutterBottom>
+      <Box sx={{ width: "100%", maxWidth: 500, m: 2 }}>
+        <Typography variant="h5" gutterBottom align="center">
           DOMAINE DES 4 PIERRES 11600 ARAGON EDOUARD FORTIN
         </Typography>
-        <Typography variant="body1" gutterBottom>
+        <Typography variant="body1" gutterBottom align="center">
           Pour déguster, commander ou pour toute demande d’information,
           contactez nous
         </Typography>
